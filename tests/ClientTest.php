@@ -2,7 +2,7 @@
 
 use GuzzleHttp\Client;
 use PHPUnit\Framework\TestCase;
-use CordialInc\OpenMarketPhp\OpenMarketClient;
+use Cordial\OpenMarketPhp\OpenMarketClient;
 
 class ClientTest extends TestCase
 {

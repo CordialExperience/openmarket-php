@@ -1,8 +1,8 @@
 <?php
-namespace CordialInc\OpenMarketPhp;
+namespace Cordial\OpenMarketPhp;
 
 use GuzzleHttp\Client;
-use CordialInc\OpenMarketPhp\DOI\SendSms;
+use Cordial\OpenMarketPhp\DOI\SendSms;
 
 class OpenMarketClient
 {

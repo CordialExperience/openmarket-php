@@ -1,10 +1,10 @@
 {
-    "name": "cordialinc/openmarket-php",
+    "name": "cordial/openmarket-php",
     "type": "library",
     "authors": [
         {
             "name": "Tzook",
-            "email": "tzookb@gmail.com"
+            "email": "tzookb@cordial.com"
         }
     ],
     "require": {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "CordialInc\\OpenMarketPhp\\": "src"
+            "Cordial\\OpenMarketPhp\\": "src"
         }
     }
 }
