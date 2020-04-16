@@ -1,5 +1,5 @@
 {
-    "name": "tzookb/openmarket-php",
+    "name": "cordialinc/openmarket-php",
     "type": "library",
     "authors": [
         {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Tzookb\\OpenMarketPhp\\": "src"
+            "CordialInc\\OpenMarketPhp\\": "src"
         }
     }
 }

@@ -1,5 +1,5 @@
 <?php
-namespace Tzookb\OpenMarketPhp\DOI;
+namespace CordialInc\OpenMarketPhp\DOI;
 
 class SendSms
 {
