@@ -56,14 +56,23 @@ class IncomingSms
         }
 
         if ($type === 'hexEncodedText') {
-            $hex = hex2bin($content);
-            echo($hex);
-            return $hex;
+            return hex2bin($content);
         }
 
         if ($type === 'binary') {
-            //todo
-            return $content;
+            return $this->binaryToString($content);
         }
+    }
+
+    protected function binaryToString($binary)
+    {
+        $binaries = explode(' ', $binary);
+
+        $string = null;
+        foreach ($binaries as $binary) {
+            $string .= pack('H*', dechex(bindec($binary)));
+        }
+
+        return $string;
     }
 }
