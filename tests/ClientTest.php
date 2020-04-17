@@ -1,8 +1,8 @@
 <?php
 
+use Cordial\OpenMarketPhp\OpenMarketClient;
 use GuzzleHttp\Client;
 use PHPUnit\Framework\TestCase;
-use Cordial\OpenMarketPhp\OpenMarketClient;
 
 class ClientTest extends TestCase
 {
