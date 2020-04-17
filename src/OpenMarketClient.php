@@ -18,9 +18,8 @@ class OpenMarketClient
     {
         $data = $sendSms->getData();
         $res = $this->client->post('/sms/v4/mt', [
-            'data' => $data
+            'json' => $data
         ]);
-
         return $res;
     }
 }

@@ -5,12 +5,12 @@ class SendSms
 {
     public $interaction = 'two-way';
     public $promotional = true;
-    public $programId = '1234'; //todo
-    public $destinationPhone = 'two-way';
-    public $ton = 'two-way';
-    public $sourceFrom = 'two-way';
-    public $content = 'two-way';
-    public $type = 'two-way';
+    public $programId = '';
+    public $destinationPhone;
+    public $ton = '3';
+    public $sourceFrom;
+    public $content = '';
+    public $type = 'text';
     public $mlc = 'segment';
     public $receiptRequested = 'final';
 
